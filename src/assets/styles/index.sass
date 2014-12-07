@@ -6,7 +6,7 @@
 $grey: #555
 $hovercolor: #4d4d4d
 $lightColor: #efefef
-$darkColor: #333
+$darkColor: #444652
 
 // -----------------------------
 // Global Styles
@@ -20,23 +20,20 @@ body
   font-size: 14px
   font-family: sans-serif
   color: $grey
-  background-image:url(../images/blackBg.png)
+  background-image:url(../images/whiteBg.png)
   background-repeat:repeat
-  background-opacity:0.2
-  
 a
   text-decoration: none
   display: inline-block
   color: $grey
   &:hover
     color:$hovercolor
-    background:blue
 
 // -----------------------------
 // App Specific
 // -----------------------------
 
-.header, .main, .footer
+.header, .footer
   width: 100%
   display: block
   clear: both
@@ -47,12 +44,16 @@ a
 // -----------------------------
 
 .header
-  padding: 50px
-  border-bottom: 2px dotted $lightColor
+  padding: 45px
+  margin:0 3%;
+  width:90%
+  background-image:url(../images/dots.png)
+  background-position:bottom center
+  background-repeat:repeat-x
   h1
     position: absolute;
     top: 5px
-    left: 25px
+    left: 30px
     img
       width:200px
 
@@ -68,10 +69,10 @@ a
   text-align: center
   display:block
   margin: 0 auto
-  width: 100%
+  width: 19%
   font-family: Georgia, "Times New Roman", Times, serif
-  font-size:35px
-  padding-top:150px
+  font-size:30px
+  padding:130px 10px
   li
     margin: 0
     padding: 0
@@ -79,26 +80,36 @@ a
     text-align:left
     list-style: none
     letter-spacing:2px
-
     a
       padding: 5px 15px
+      text-shadow: 1px 1px 1px #000, 
+      3px 3px 5px blue; 
 // -----------------------------
 // Main
 // -----------------------------
 
 .main
   padding: 20px
-  border-bottom: 1px solid $lightColor
+  padding: 20px;
+  display: inline-block;
+  width: 73%;
+  height: 100vh;
+  margin-top: 35px;
+  border-bottom:solid 2px $lightColor
 
 // -----------------------------
 // Footer
 // -----------------------------
 
 .footer
-  padding: 20px
-
+  padding: 10px 15px
+  position:fixed;
+  bottom:0
+  padding:30px 0
+  background-image:url(../images/whiteBg.png)
+  background-repeat:repeat
   p
     margin: 0
-    padding: 0
+    padding-left:25px
     font-size: 12px
 
