@@ -68,11 +68,11 @@ a
   padding: 10px 0 0
   text-align: center
   display: block
-  margin: 0 auto
+  margin: 0 auto 0 20px
   width: 19%
   font-family: Georgia, "Times New Roman", Times, serif
-  font-size:30px
-  padding:130px 10px
+  font-size:27px
+  padding:130px 0px
   li
     margin: 0
     padding: 0
@@ -81,29 +81,40 @@ a
     list-style: none
     letter-spacing:2px
     a
-      padding: 5px 15px
-      text-shadow: 1px 1px 1px #000
-    
+      padding: 9px 0px 5px
+      width:0px
+      border-bottom:3px solid rgba(233,255,255,0)
+    a:hover
+      display:inline-block
+      border-bottom:3px solid $darkColor  
+      width:50px; 
+      display: inherit
+      -webkit-transition: 0.1s ease-in;
+      transition: 0.1s ease-in;
+    a:active
+      border-bottom:3px solid $darkColor 
 // -----------------------------
 // Main
 // -----------------------------
 
 .main
-  padding: 20px
-  padding: 20px
   display: inline-block
-  width: 73%
+  width: 74%
   height: 500px
-  margin-top: 35px;
   border-bottom:solid 2px $lightColor
+  h1
+    text-transform: uppercase;
+    font-size: 13px
+    letter-spacing: 5px
 
-  .about
+  .page
     width: 100%
     height: 100%
     margin: 0 auto
     overflow: auto
     white-space: nowrap
-
+    img
+      height:475px
   
 
 
@@ -112,14 +123,35 @@ a
 // -----------------------------
 
 .footer
-  padding: 10px 15px
+  padding:0
   position:fixed;
   bottom:0
-  padding:30px 0
+  padding:0
   background-image:url(../images/whiteBg.png)
   background-repeat:repeat
   p
     margin: 0
     padding-left:25px
     font-size: 12px
+    float:left
+  ul
+    float:right
+    display:inline-block
+    margin:0
+    padding:0 25px
+    li
+      display:inline-block
+      padding-right:15px
+      a:hover
+        color:#333333
+        text-shadow: 1px 1px 1px rgba(233,5,5,0.3)
+      i
+      font-size: 20px
+      padding:15px
+    
+      
+
+
+
+
 

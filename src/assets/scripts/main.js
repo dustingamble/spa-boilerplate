@@ -98,11 +98,11 @@ jQuery(function($) {
 
       // ------  Some page data -------- ///
       this.model.set({
-        content: '<h1>Home Page</h1><a href="#" class="button">send email</a></h1>',
-        portfolioItems: [
-        {name: 'Microsoft Project', image: 'images/blackBg.png'},
-        {name: 'Google Project', image: 'images/blackBg.png'}
-        ]
+        content: '<h1>News</h1><a href="#" class="button">send email</a></h1>',
+        // portfolioItems: [
+        // {name: 'Microsoft Project', image: 'images/blackBg.png'},
+        // {name: 'Google Project', image: 'images/blackBg.png'}
+        // ]
       });
 
     },
@@ -148,7 +148,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>About Page</h1>'
+        content: '<h1>Sports</h1>'
       });
 
     },
@@ -186,7 +186,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Services Page</h1>'
+        content: '<h1>Weather</h1>'
       });
 
     },
@@ -225,7 +225,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>More Page</h1>'
+        content: '<h1>Travel</h1>'
       });
 
     },
@@ -264,7 +264,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Contact Page</h1>'
+        content: '<h1>Contact</h1>'
 
 
       });

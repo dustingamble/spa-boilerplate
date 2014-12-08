@@ -15,6 +15,9 @@ html
 
   link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
 
+  link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet")
+
+
   body
 
   div.wrapper
@@ -44,6 +47,15 @@ html
 
       p Copyright &copy; 2014
 
+      ul.fa-ul
+        li: a(href="#") 
+          i.fa-li.fa.fa-twitter
+        li: a(href="#") 
+          i.fa-li.fa.fa-facebook
+        li: a(href="#")
+          i.fa-li.fa.fa-rss
+  
+
   // -----------------------------
   // Templates
   // -----------------------------
@@ -58,7 +70,8 @@ html
   
 
   script#about(type="text/template").
-    <div class="page about scroll">{{{content}}}
+    {{{content}}}
+    <div class="page about">
       <img src="assets/images/news.jpg">
       <img src="assets/images/news.jpg">
       <img src="assets/images/news.jpg">
@@ -67,11 +80,20 @@ html
       <img src="assets/images/news.jpg">
       <img src="assets/images/news.jpg">
       <img src="assets/images/news.jpg">
-
     </div>
 
   script#services(type="text/template").
-    <div class="page services">{{{content}}}</div>
+    {{{content}}}
+    <div class="page services">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+    </div>
 
   script#more(type="text/template").
     <div class="page more">{{{content}}}</div>
