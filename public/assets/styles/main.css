@@ -79,33 +79,30 @@ a {
       display: inherit;
       -webkit-transition: 0.1s ease-in;
       transition: 0.1s ease-in; }
-    /* line 79, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
-    .nav li a:active {
-      border-bottom: 3px solid #444652; }
 
-/* line 82, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 80, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .main {
   display: inline-block;
   width: 74%;
   height: 500px;
   border-bottom: solid 2px #efefef; }
-  /* line 87, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 85, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .main h1 {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 5px; }
-  /* line 92, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 89, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .main .page {
     width: 100%;
     height: 100%;
     margin: 0 auto;
     overflow: auto;
     white-space: nowrap; }
-    /* line 98, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    /* line 95, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
     .main .page img {
       height: 475px; }
 
-/* line 104, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+/* line 101, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .footer {
   padding: 0;
   position: fixed;
@@ -113,25 +110,25 @@ a {
   padding: 0;
   background-image: url(../images/whiteBg.png);
   background-repeat: repeat; }
-  /* line 111, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 108, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .footer p {
     margin: 0;
     padding-left: 25px;
     font-size: 12px;
     float: left; }
-  /* line 116, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  /* line 113, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
   .footer ul {
     float: right;
     display: inline-block;
     margin: 0;
     padding: 0 25px; }
-    /* line 121, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    /* line 118, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
     .footer ul li {
       display: inline-block;
       padding-right: 15px;
       font-size: 20px;
       padding: 15px; }
-      /* line 124, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+      /* line 121, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
       .footer ul li a:hover {
         color: #333333;
         text-shadow: 1px 1px 1px rgba(233, 5, 5, 0.3); }

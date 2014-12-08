@@ -186,7 +186,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Weather</h1>'
+        content: '<h1>Russian</h1>'
       });
 
     },
