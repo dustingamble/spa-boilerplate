@@ -15,9 +15,9 @@
     </header>
     <ul class="nav">
       <li><a href="/">News</a></li>
-      <li><a href="/about">Sports</a></li>
+      <li><a href="/about">Cuba</a></li>
       <li><a href="/services">Russian</a></li>
-      <li><a href="/more">Travel</a></li>
+      <li><a href="/more">Vietnam</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
     <div class="main"></div>
@@ -34,7 +34,17 @@
   <!-- Templates-->
   <!-- ------------------------------->
   <script id="home" type="text/template">
-    <div class="page home">{{{content}}}</div>
+    {{{content}}}
+    <div class="page home">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+    </div>
     {{#each portfolioitems}}
     <p>{{name}}; {{image}}</p>
     {{/each}}
@@ -45,15 +55,14 @@
   </script>
   <script id="about" type="text/template">
     {{{content}}}
-    <div class="page about">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
+    <div class="page home">
+      <img src="assets/images/cuba/cuba1.jpg">
+      <img src="assets/images/cuba/cuba2.jpg">
+      <img src="assets/images/cuba/cuba3.jpg">
+      <img src="assets/images/cuba/cuba4.jpg">
+      <img src="assets/images/cuba/cuba5.jpg">
+      <img src="assets/images/cuba/cuba6.jpg">
+      <img src="assets/images/cuba/cuba7.jpg">
     </div>
     
   </script>
@@ -76,7 +85,15 @@
     
   </script>
   <script id="more" type="text/template">
-    <div class="page more">{{{content}}}</div>
+    {{{content}}}
+    <div class="page more">
+      <img src="assets/images/vietnam/nam6.jpg">
+      <img src="assets/images/vietnam/nam5.jpg">
+      <img src="assets/images/vietnam/nam4.jpg">
+      <img src="assets/images/vietnam/nam3.jpg">
+      <img src="assets/images/vietnam/nam2.jpg">
+      <img src="assets/images/vietnam/nam1.jpg">
+    </div>
     
   </script>
   <script id="contact" type="text/template">

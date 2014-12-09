@@ -98,7 +98,7 @@ jQuery(function($) {
 
       // ------  Some page data -------- ///
       this.model.set({
-        content: '<h1>News</h1><a href="#" class="button">send email</a></h1>',
+        content: '<h1>News</h1>',
         // portfolioItems: [
         // {name: 'Microsoft Project', image: 'images/blackBg.png'},
         // {name: 'Google Project', image: 'images/blackBg.png'}
@@ -111,7 +111,7 @@ jQuery(function($) {
     // function to send email
     sendEmail: function(e) {
       e.preventDefault();
-      alert('Contact me at:darcy@email.com');
+      alert('making things work..ignore me.');
     },
 
     // Our Render Function
@@ -225,7 +225,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Travel</h1>'
+        content: '<h1>Vietnam</h1>'
       });
 
     },
@@ -252,6 +252,11 @@ jQuery(function($) {
     // Our Container Element
     el: $('.main'),
 
+     //--------- Bind functionality to html -----------//
+    events: {
+      'click .button': 'sendEmail'
+    },
+
     // Our template ID
     template: '#contact',
 
@@ -264,7 +269,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Contact</h1>'
+        content: '<h1>Contact</h1><a href="#" class="button">send email</a>'
 
 
       });

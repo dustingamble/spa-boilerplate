@@ -33,11 +33,11 @@ html
 
       li: a(href="/") News
 
-      li: a(href="/about") Sports
+      li: a(href="/about") Cuba
 
       li: a(href="/services") Russian
 
-      li: a(href="/more") Travel
+      li: a(href="/more") Vietnam
 
       li: a(href="/contact") Contact
 
@@ -61,7 +61,17 @@ html
   // -----------------------------
 
   script#home(type="text/template").
-    <div class="page home">{{{content}}}</div>
+    {{{content}}}
+    <div class="page home">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+      <img src="assets/images/news.jpg">
+    </div>
     {{#each portfolioitems}}
     <p>{{name}}; {{image}}</p>
     {{/each}}
@@ -71,15 +81,14 @@ html
 
   script#about(type="text/template").
     {{{content}}}
-    <div class="page about">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
+    <div class="page home">
+      <img src="assets/images/cuba/cuba1.jpg">
+      <img src="assets/images/cuba/cuba2.jpg">
+      <img src="assets/images/cuba/cuba3.jpg">
+      <img src="assets/images/cuba/cuba4.jpg">
+      <img src="assets/images/cuba/cuba5.jpg">
+      <img src="assets/images/cuba/cuba6.jpg">
+      <img src="assets/images/cuba/cuba7.jpg">
     </div>
 
   script#services(type="text/template").
@@ -100,7 +109,15 @@ html
     </div>
 
   script#more(type="text/template").
-    <div class="page more">{{{content}}}</div>
+    {{{content}}}
+    <div class="page more">
+      <img src="assets/images/vietnam/nam6.jpg">
+      <img src="assets/images/vietnam/nam5.jpg">
+      <img src="assets/images/vietnam/nam4.jpg">
+      <img src="assets/images/vietnam/nam3.jpg">
+      <img src="assets/images/vietnam/nam2.jpg">
+      <img src="assets/images/vietnam/nam1.jpg">
+    </div>
 
   script#contact(type="text/template").
     <div class="page contact">{{{content}}}</div>
