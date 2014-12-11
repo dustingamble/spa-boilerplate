@@ -79,34 +79,31 @@ html
 
   script#services(type="text/template").
     {{{content}}}
-    <div class="page services">
-      <img src="assets/images/propaganda/prop1.jpg">
-      <img src="assets/images/propaganda/prop2.jpg">
-      <img src="assets/images/propaganda/prop3.jpg">
-      <img src="assets/images/propaganda/prop4.jpg">
-      <img src="assets/images/propaganda/prop5.jpg">
-      <img src="assets/images/propaganda/prop6.jpg">
-      <img src="assets/images/propaganda/prop7.jpg">
-      <img src="assets/images/propaganda/prop8.jpg">
-      <img src="assets/images/propaganda/prop9.jpg">
-      <img src="assets/images/propaganda/prop10.jpg">
-      <img src="assets/images/propaganda/prop11.jpg">
-      <img src="assets/images/propaganda/prop12.jpg">
+    <div class="page home">
+      {{#each russiaItems}}
+        <img src="{{image}}">
+      {{/each}}
     </div>
 
   script#more(type="text/template").
     {{{content}}}
-    <div class="page more">
-      <img src="assets/images/vietnam/nam6.jpg">
-      <img src="assets/images/vietnam/nam5.jpg">
-      <img src="assets/images/vietnam/nam4.jpg">
-      <img src="assets/images/vietnam/nam3.jpg">
-      <img src="assets/images/vietnam/nam2.jpg">
-      <img src="assets/images/vietnam/nam1.jpg">
+    <div class="page home">
+      {{#each vietnamItems}}
+        <img src="{{image}}">
+      {{/each}}
     </div>
 
+
   script#contact(type="text/template").
-    <div class="page contact">{{{content}}}</div>
+    <div class="page contact">
+      {{{content}}}
+      <div class="formWrap">
+        <h2>Send a message</h2>
+        <h3>Email</h3><input type="text" class="email">
+        <h3>Subject<h3><input type="text" class="subject">
+        <button class="submit">Send</button>
+      </div>
+    </div>
 
   // -----------------------------
   // Libraries

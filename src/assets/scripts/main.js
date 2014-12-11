@@ -101,7 +101,7 @@ jQuery(function($) {
         content: '<h1>News</h1>',
         newsItems: [
         { image: 'assets/images/news.jpg'},
-        { image: 'assets/images/newsdfv.jpg'},    
+        { image: 'assets/images/news.jpg'},    
         { image: 'assets/images/news.jpg'},        
         { image: 'assets/images/news.jpg'},        
         { image: 'assets/images/news.jpg'},        
@@ -156,16 +156,14 @@ jQuery(function($) {
       // Some page data
       this.model.set({
         content: '<h1>Cuba</h1>',
-        russiaItems: [
-        { image: 'assets/images/propaganda/prop1.jpg'},
-        { image: 'assets/images/propaganda/prop2.jpg'},    
-        { image: 'assets/images/propaganda/prop3.jpg'},        
-        { image: 'assets/images/news.jpg'},        
-        { image: 'assets/images/news.jpg'},        
-        { image: 'assets/images/news.jpg'},        
-        { image: 'assets/images/news.jpg'},        
-        { image: 'assets/images/news.jpg'},        
-    
+        cubaItems: [
+        { image: 'assets/images/cuba/cuba1.jpg'},
+        { image: 'assets/images/cuba/cuba2.jpg'},
+        { image: 'assets/images/cuba/cuba3.jpg'},      
+        { image: 'assets/images/cuba/cuba4.jpg'},
+        { image: 'assets/images/cuba/cuba5.jpg'},
+        { image: 'assets/images/cuba/cuba6.jpg'},
+        { image: 'assets/images/cuba/cuba7.jpg'},
         ]
       });
 
@@ -202,9 +200,23 @@ jQuery(function($) {
       this.template = Handlebars.compile($(this.template).html());
       this.model = new Backbone.Model({});
 
-      // Some page data
+            // Some page data
       this.model.set({
-        content: '<h1>Russian</h1>'
+        content: '<h1>Russia</h1>',
+        russiaItems: [
+        { image: 'assets/images/propaganda/prop1.jpg'},
+        { image: 'assets/images/propaganda/prop2.jpg'},    
+        { image: 'assets/images/propaganda/prop3.jpg'},        
+        { image: 'assets/images/propaganda/prop4.jpg'},
+        { image: 'assets/images/propaganda/prop5.jpg'},    
+        { image: 'assets/images/propaganda/prop6.jpg'},   
+        { image: 'assets/images/propaganda/prop7.jpg'},
+        { image: 'assets/images/propaganda/prop8.jpg'},    
+        { image: 'assets/images/propaganda/prop9.jpg'},        
+        { image: 'assets/images/propaganda/prop10.jpg'},
+        { image: 'assets/images/propaganda/prop11.jpg'},    
+        { image: 'assets/images/propaganda/prop12.jpg'},  
+        ]
       });
 
     },
@@ -243,7 +255,15 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Vietnam</h1>'
+        content: '<h1>Vietnam</h1>',
+        vietnamItems: [
+        { image: 'assets/images/vietnam/nam1.jpg'},
+        { image: 'assets/images/vietnam/nam2.jpg'},
+        { image: 'assets/images/vietnam/nam3.jpg'},
+        { image: 'assets/images/vietnam/nam4.jpg'},
+        { image: 'assets/images/vietnam/nam5.jpg'},
+        { image: 'assets/images/vietnam/nam6.jpg'},
+        ]
       });
 
     },
@@ -270,11 +290,7 @@ jQuery(function($) {
     // Our Container Element
     el: $('.main'),
 
-     //--------- Bind functionality to html -----------//
-    events: {
-      'click .button': 'sendEmail'
-    },
-
+ 
     // Our template ID
     template: '#contact',
 
@@ -287,7 +303,7 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Contact</h1><a href="#" class="button">send email</a>'
+        content: '<h1>Contact</h1>'
 
 
       });

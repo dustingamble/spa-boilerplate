@@ -77,8 +77,8 @@ a {
       border-bottom: 3px solid #444652;
       width: 50px;
       display: inherit;
-      -webkit-transition: 0.1s ease-in;
-      transition: 0.1s ease-in; }
+      -webkit-transition: 0.6s ease-in;
+      transition: 0.6s ease-in; }
 
 /* line 80, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
 .main {
@@ -137,3 +137,62 @@ a {
       .footer ul li a:hover {
         color: #333333;
         text-shadow: 1px 1px 1px rgba(233, 5, 5, 0.3); }
+
+/* line 133, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.contact {
+  text-transform: uppercase;
+  padding: 30px 100px;
+  margin: 10px auto;
+  font-family: Georgia, "Times New Roman", Times, serif; }
+
+/* line 139, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.formWrap {
+  padding: 10px 30px;
+  background: #efefef; }
+  /* line 142, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .formWrap h2 {
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #4d4d4d; }
+  /* line 147, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .formWrap input[type="text"] {
+    display: block;
+    width: 350px;
+    padding: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid #f2f3f4;
+    font-size: 0.9em; }
+  /* line 158, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .formWrap input[type="text"]:focus {
+    color: #f2f3f4;
+    border: solid 5px #333;
+    outline: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  /* line 166, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .formWrap button.submit {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    color: #555;
+    border: 3px solid #555;
+    background-color: transparent;
+    font-size: 1.5em;
+    cursor: pointer;
+    height: 47px;
+    outline: none;
+    margin: 20px 0 15px 0px; }
+  /* line 185, /Users/dustingamble/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .formWrap button.submit:hover {
+    color: #4d4d4d; }
