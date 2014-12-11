@@ -63,32 +63,18 @@ html
   script#home(type="text/template").
     {{{content}}}
     <div class="page home">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
-      <img src="assets/images/news.jpg">
+      {{#each newsItems}}
+        <img src="{{image}}">
+      {{/each}}
     </div>
-    {{#each portfolioitems}}
-    <p>{{name}}; {{image}}</p>
-    {{/each}}
-    <p>This is cool</p>
     
-  
 
   script#about(type="text/template").
     {{{content}}}
     <div class="page home">
-      <img src="assets/images/cuba/cuba1.jpg">
-      <img src="assets/images/cuba/cuba2.jpg">
-      <img src="assets/images/cuba/cuba3.jpg">
-      <img src="assets/images/cuba/cuba4.jpg">
-      <img src="assets/images/cuba/cuba5.jpg">
-      <img src="assets/images/cuba/cuba6.jpg">
-      <img src="assets/images/cuba/cuba7.jpg">
+      {{#each cubaItems}}
+        <img src="{{image}}">
+      {{/each}}
     </div>
 
   script#services(type="text/template").

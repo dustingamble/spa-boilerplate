@@ -99,10 +99,17 @@ jQuery(function($) {
       // ------  Some page data -------- ///
       this.model.set({
         content: '<h1>News</h1>',
-        // portfolioItems: [
-        // {name: 'Microsoft Project', image: 'images/blackBg.png'},
-        // {name: 'Google Project', image: 'images/blackBg.png'}
-        // ]
+        newsItems: [
+        { image: 'assets/images/news.jpg'},
+        { image: 'assets/images/newsdfv.jpg'},    
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+    
+        ]
       });
 
     },
@@ -148,7 +155,18 @@ jQuery(function($) {
 
       // Some page data
       this.model.set({
-        content: '<h1>Sports</h1>'
+        content: '<h1>Cuba</h1>',
+        russiaItems: [
+        { image: 'assets/images/propaganda/prop1.jpg'},
+        { image: 'assets/images/propaganda/prop2.jpg'},    
+        { image: 'assets/images/propaganda/prop3.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+        { image: 'assets/images/news.jpg'},        
+    
+        ]
       });
 
     },
